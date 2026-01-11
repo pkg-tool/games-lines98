@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background Grid Concept -->
+  <rect x="5" y="5" width="90" height="90" rx="15" fill="#f0f0f0" stroke="#bdbdbd" stroke-width="2"/>
+  <line x1="35" y1="5" x2="35" y2="95" stroke="#bdbdbd" stroke-width="1"/>
+  <line x1="65" y1="5" x2="65" y2="95" stroke="#bdbdbd" stroke-width="1"/>
+  <line x1="5" y1="35" x2="95" y2="35" stroke="#bdbdbd" stroke-width="1"/>
+  <line x1="5" y1="65" x2="95" y2="65" stroke="#bdbdbd" stroke-width="1"/>
+
+  <!-- Colored Balls with Gradients -->
+  <defs>
+    <radialGradient id="redBall" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#ff5252"/>
+      <stop offset="100%" stop-color="#D50000"/>
+    </radialGradient>
+    <radialGradient id="blueBall" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#448aff"/>
+      <stop offset="100%" stop-color="#2962FF"/>
+    </radialGradient>
+    <radialGradient id="greenBall" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#69f0ae"/>
+      <stop offset="100%" stop-color="#00C853"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="20" cy="80" r="12" fill="url(#redBall)" />
+  <circle cx="50" cy="50" r="12" fill="url(#blueBall)" />
+  <circle cx="80" cy="20" r="12" fill="url(#greenBall)" />
+</svg>
